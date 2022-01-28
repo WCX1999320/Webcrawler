@@ -1,4 +1,9 @@
-# webcrawler
+# Parallel Web Crawler
+
+# Introduction
+The source code for a legacy web crawler, which is single-threaded. The Task is upgrading the code to take advantage of multi-core architectures to increase crawler throughput.
+Furthermore, I applied the AOP to measure the performance of  crawler to prove that, given the same amount of time, the multi-threaded implementation can visit more web pages than the legacy implementation.
+
 # Configuration
 
 ## JSON Configuration Example
