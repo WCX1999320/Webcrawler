@@ -4,9 +4,13 @@
 The source code for a legacy web crawler, which is single-threaded. Here, we need to use  advanced features as multi-threading, reflection, design patterns, AOP, Functional Programming and I/O Files to increase crawler throughput.Furthermore, we applied the AOP to measure the performance of  crawler.Finally, the new parallel web crawler was five times more efficient than the legacy single-thread one.
 
 1.Implemented crawler configuration and crawler output by using Jackson.
+
 2.Applied ForkJoinPool to make the legacy web crawler parallel and improved the crawler five times more efficient.
+
 3.Used concurrentHashMap to avoid the same URL be counted twice int this parallel web crawler.
+
 4.Implemented the final word count sorting using only functional programming techniques.
+
 5.Implemented a basic method profiler by appling AOP.
 
 # Tech Stack
