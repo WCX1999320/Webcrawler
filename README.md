@@ -7,7 +7,7 @@ The source code for a legacy web crawler, which is single-threaded. Here, we nee
 
 2.Applied ForkJoinPool to make the legacy web crawler parallel and improved the crawler five times more efficient.
 
-3.Used concurrentHashMap to avoid the same URL be counted twice int this parallel web crawler.
+3.Used ConcurrentHashMap to avoid the same URL be counted twice int this parallel web crawler.
 
 4.Implemented the final word count sorting using only functional programming techniques.
 
