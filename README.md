@@ -11,7 +11,7 @@ The source code for a legacy web crawler, which is single-threaded. Here, we nee
 
 4.Implemented the final word count sorting using only functional programming techniques.
 
-5.Implemented a basic method profiler by appling AOP.
+5.Implemented a basic method profiler by applying AOP.
 
 # Tech Stack
 
